@@ -1,14 +1,26 @@
-layout_spectrum: 0.8093448
 color:
   saturation: 0.2029726
-  lightness: 0.9887553
   brandStrength: 0.9317937
+  rhythmicContrast: 0.7304743
   brandColors:
     - '#03031F'
     - '#EAF2D9'
     - '#88ACB3'
     - '#425D77'
     - '#FACE6D'
-  rhythmicContrast: 0.7304743
+  lightness: 0.9887553
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.8093448
 typography_spectrum: 0.846742
 name: ZO
